@@ -1,0 +1,784 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 354500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TestComplete Login page Sencarios",
+        "description": "",
+        "id": "testcomplete-login-page;testcomplete-login-page-sencarios",
+        "after": [
+          {
+            "result": {
+              "duration": 92794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10302278165,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to \"qaurl\" and with \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "chrome",
+                  "offset": 26
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_go_to_url_and_with_chrome(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196238195,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Tester\" in the \"usertxtbox_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 9
+                },
+                {
+                  "val": "usertxtbox_id",
+                  "offset": 25
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123482738,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"test\" in the \"password_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 9
+                },
+                {
+                  "val": "password_id",
+                  "offset": 23
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1535648631,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"login_id\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_id",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87883925,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate \"viewallorder_xpath\" the Logged successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viewallorder_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_validate_the_Logged_successful(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80631429,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close Browser",
+            "match": {
+              "location": "TestCompletedLoginPage.closeBr()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97071,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TestComplete Login Failed invalid user,Verify Error Message",
+        "description": "",
+        "id": "testcomplete-login-page;testcomplete-login-failed-invalid-user,verify-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 82531,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10512043378,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I go to \"qaurl\" and with \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "chrome",
+                  "offset": 26
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_go_to_url_and_with_chrome(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212022638,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"Tester123\" in the \"usertxtbox_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester123",
+                  "offset": 9
+                },
+                {
+                  "val": "usertxtbox_id",
+                  "offset": 28
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122420949,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \"test\" in the \"password_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 9
+                },
+                {
+                  "val": "password_id",
+                  "offset": 23
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546221197,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on \"login_id\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_id",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128967867,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verified \"Invalid Login or Password.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Login or Password.",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_verified_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67886534,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I close Browser",
+            "match": {
+              "location": "TestCompletedLoginPage.closeBr()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 92366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "TestComplete Login Unsuccessful with invalid password,Verified Error Message",
+        "description": "",
+        "id": "testcomplete-login-page;testcomplete-login-unsuccessful-with-invalid-password,verified-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 165491,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6066731095,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I go to \"qaurl\" and with \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "chrome",
+                  "offset": 26
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_go_to_url_and_with_chrome(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207362823,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter \"Tester\" in the \"usertxtbox_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 9
+                },
+                {
+                  "val": "usertxtbox_id",
+                  "offset": 25
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125673026,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter \"test123\" in the \"password_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123",
+                  "offset": 9
+                },
+                {
+                  "val": "password_id",
+                  "offset": 26
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470324845,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on \"login_id\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_id",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107905264,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I verified \"Invalid Login or Password.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Login or Password.",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_verified_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78053287,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I close Browser",
+            "match": {
+              "location": "TestCompletedLoginPage.closeBr()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 144109,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "TestComplete Logout successful",
+        "description": "",
+        "id": "testcomplete-login-page;testcomplete-logout-successful",
+        "after": [
+          {
+            "result": {
+              "duration": 186872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5312562085,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I go to \"qaurl\" and with \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "chrome",
+                  "offset": 26
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_go_to_url_and_with_chrome(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218028613,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter \"Tester\" in the \"usertxtbox_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 9
+                },
+                {
+                  "val": "usertxtbox_id",
+                  "offset": 25
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151272287,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter \"test\" in the \"password_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 9
+                },
+                {
+                  "val": "password_id",
+                  "offset": 23
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1446821794,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on \"login_id\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_id",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1580507205,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on \"logout_linktxt\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "logout_linktxt",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15857994,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I verified \"Web Orders Login\" page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Web Orders Login",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.verifypageTitle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107049162,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I close Browser",
+            "match": {
+              "location": "TestCompletedLoginPage.closeBr()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1733586,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "TestComplete Login page Sencarios",
+        "description": "",
+        "id": "testcomplete-login-page;testcomplete-login-page-sencarios",
+        "after": [
+          {
+            "result": {
+              "duration": 62006,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7974604288,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I go to \"qaurl\" and with \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "chrome",
+                  "offset": 26
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_go_to_url_and_with_chrome(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163297064,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter \"Tester\" in the \"usertxtbox_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 9
+                },
+                {
+                  "val": "usertxtbox_id",
+                  "offset": 25
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000590,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter \"test\" in the \"password_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 9
+                },
+                {
+                  "val": "password_id",
+                  "offset": 23
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_enter(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1433762596,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on \"login_id\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login_id",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109940753,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I validate \"viewallorder_xpath\" the Logged successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viewallorder_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_validate_the_Logged_successful(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 460733673,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on \"viewallprodts_linktxt\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "viewallprodts_linktxt",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCompletedLoginPage.I_click_on_login_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85507622,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I close Browser",
+            "match": {
+              "location": "TestCompletedLoginPage.closeBr()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TestComplete Login page",
+    "description": "",
+    "id": "testcomplete-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com.cucumber.testng.examples/TestCompleteLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@loginpage"
+      }
+    ]
+  }
+]
