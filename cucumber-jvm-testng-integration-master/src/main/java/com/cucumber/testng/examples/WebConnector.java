@@ -17,6 +17,7 @@ public class WebConnector {
 
 	//initialize properties ifle
 	// logging 
+	// Added latha.......
  
 	Properties OR=null;
 	Properties QACONFIG=null;
